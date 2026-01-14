@@ -1,2 +1,8 @@
-# employee-management-api
-RESTful Employee Management API built with FastAPI, implementing secure token-based authentication, CRUD operations, validation, pagination, filtering, and proper HTTP status codes.
+# Employee Management API
+
+## Run Project
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+## Docs
+http://127.0.0.1:8000/docs
